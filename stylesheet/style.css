@@ -1,0 +1,150 @@
+body {
+	background-color: #FDFEFE;
+}
+a {
+	text-decoration: none;
+}
+.spacer {
+	height: 10px;
+}
+
+.logo {
+	color: #FF8533;
+	margin-top: 5px;
+	padding: 10px 0;
+}
+#h1 {
+	font: 52px/1em 'Open Sans', sans-serif;
+}
+#h2 {
+	padding-left: 3px;
+	font: 26px/1em 'Open Sans', sans-serif;
+}
+.globe {
+	margin-left: 5px;
+}
+.contacts {
+	background-color: #FDFEFE;
+	color: #FF8535;
+	font: bold 20px/1.5em 'Open Sans', sans-serif;
+}
+.contacts ul{
+	margin: 5px 0 10px 0;
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+.contacts ul li {
+	text-align: right;
+	margin-left: 0px;
+}
+.fa-map-size {
+	font-size: 30px;
+	padding-right: 3px;
+	padding-left: 4px;
+}
+.fa-phone-size {
+	font-size: 26px;
+}
+.fa-mail-size {
+	font-size: 22px;
+}
+#navbar {
+	background-color: #FF8533;
+	box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.4);
+}
+#navbar ul {
+	list-style-type: none;
+	display: block;
+	margin: 5px 0 0 20px;
+	padding: 8px 0;
+	overflow: hidden;
+}
+#navbar ul li {
+	float: left;
+	margin: 0px;
+}
+#navbar ul li a {
+	padding: 10px 20px;
+	font: 24px/1em 'PT Sans', sans-serif;
+	color: #FDFEFE;
+}
+#navbar ul li a:hover {
+	background-color: #ffb380;
+}
+.main {
+	background-color: #FF8533;
+	color: #FDFEFE;
+	box-shadow: 0 1px 5px 0px grey;
+}
+.main article {
+	height: 800px;
+	padding: 20px 0;
+	font: 28px/1em 'PT Sans', sans-serif;
+}
+.main article h3 {
+	font: 36px/1em 'PT Sans', sans-serif;
+	padding: 0px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.grid_10 .style {
+	background-color: rgba(220, 118, 51, 0.5);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#metropolis {
+	background-image: url(../img/isometropolis.jpg);
+	width: 290px;
+	height: 430px;
+	border: solid 6px;
+}
+.widget_style {
+	margin: 30px 15px 20px 10px;
+}
+.main article p {
+	line-height: 1.2em;
+}
+
+#clear_p {
+	font-size: 32px;
+	text-indent: 0px;
+	margin-bottom: 10px;
+}
+.main article ul {
+	font-size: 32px;
+	line-height: 1.2em;
+}
+
+.footer {
+	font: 16px/1em 'Open Sans', sans-serif;
+	color: #e65c00;
+	padding: 10px;
+}
+
+/*clean-graph.index*/
+table {
+	margin-top: 20px;
+	background-color: rgba(220, 118, 51, 0.5);
+}
+#clean_graph, th, td {
+	font: 28px/1em 'PT Sans', sans-serif;
+	border: solid 2px;
+}
+th {
+	padding: 8px 8px;
+	font-size: 29px;
+	text-align: center;
+	vertical-align: middle;
+}
+td {
+	padding: 8px 8px;
+	vertical-align: middle;
+}
+
+#clean_graph tr td:nth-child(1) {
+	text-align: center;
+}
+#notes {
+	margin: 15px;
+	font: 26px/1.2em 'PT Sans', sans-serif;
+}
