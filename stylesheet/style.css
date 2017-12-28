@@ -50,7 +50,7 @@ a {
 	font-size: 22px;
 }
 #navbar {
-	background-color: #FF8533;
+	background-color: #FF9147;
 	box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.4);
 }
 #navbar ul {
@@ -70,16 +70,18 @@ a {
 	color: #FDFEFE;
 }
 #navbar ul li a:hover {
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
 	background-color: #ffb380;
 }
 .main {
 	background-color: #FF8533;
 	color: #FDFEFE;
 	box-shadow: 0 1px 5px 0px grey;
+	height: 1133.2px;
 }
 .main article {
-	height: 800px;
-	padding: 20px 0;
+	padding: 20px 0 10px 0;
 	font: 28px/1em 'PT Sans', sans-serif;
 }
 .main article h3 {
@@ -107,6 +109,7 @@ a {
 }
 
 #clear_p {
+	margin-left: -5px;
 	font-size: 32px;
 	text-indent: 0px;
 	margin-bottom: 10px;
@@ -148,4 +151,58 @@ td {
 #notes {
 	margin: 15px;
 	font: 26px/1.2em 'PT Sans', sans-serif;
+}
+
+/* Email form index.html */
+.request_style {
+	background-color: rgba(220, 118, 51, 0.5);
+	border-radius: 10px;
+	padding: 20px;
+	margin-left: 14px;
+	margin-bottom: 80px;
+	margin-top: 15px;
+	width: 60%;
+}
+#request {
+	font: 32px/1em 'PT Sans', sans-serif;
+	margin: 0 0 10px -5px;
+}
+#request_kostil {
+	margin-left: 38px;
+}
+.form_names {
+	font: 28px 'PT Sans', sans-serif;
+}
+form input, form button {
+	font: 18px 'PT Sans', sans-serif;
+	margin: 7px 0;
+}
+form input {
+	box-sizing: border-box;
+	width: 90%;
+	background-color: #FDFEFE;
+	color: #cc6a28;
+	margin-top: 10px;
+	padding: 10px 15px;
+	border: 5px solid #ffa970;
+	-webkit-transition: 0.4s;
+    transition: 0.4s;
+    outline: none;
+}
+form input:focus {
+	border: 5px solid #FF8533;
+}
+form button {
+	color: #FDFEFE;
+	font: 20px 'PT Sans', sans-serif;
+	background-color: #FF9147;
+	text-decoration: none;
+	border: none;
+	padding: 10px 15px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+form button:hover {
+	background-color: #ff8533;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
