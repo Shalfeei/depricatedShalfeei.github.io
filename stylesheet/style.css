@@ -78,7 +78,6 @@ a {
 	background-color: #FF8533;
 	color: #FDFEFE;
 	box-shadow: 0 1px 5px 0px grey;
-	height: 1133.2px;
 }
 .main article {
 	padding: 20px 0 10px 0;
@@ -150,6 +149,7 @@ td {
 }
 #notes {
 	margin: 15px;
+	margin-bottom: 100px;
 	font: 26px/1.2em 'PT Sans', sans-serif;
 }
 
