@@ -80,13 +80,13 @@ a {
 	box-shadow: 0 1px 5px 0px grey;
 }
 .main article {
-	padding: 20px 0 10px 0;
+	padding: 5px 0 10px 0;
 	font: 28px/1em 'PT Sans', sans-serif;
 }
 .main article h3 {
 	font: 36px/1em 'PT Sans', sans-serif;
-	padding: 0px;
-	margin-bottom: 25px;
+	
+	margin-bottom: 30px;
 	text-align: center;
 }
 .grid_10 .style {
@@ -108,12 +108,14 @@ a {
 }
 
 #clear_p {
-	
+	margin-top: 10px;
 	font-size: 32px;
 	text-indent: 0px;
 	margin-bottom: 10px;
 }
 .main article ul {
+	padding: 0px;
+	margin-top: 15px;
 	margin-left: 5px;
 	font-size: 32px;
 	line-height: 1.2em;
@@ -127,12 +129,13 @@ a {
 
 /*clean-graph.index*/
 table {
-	margin-top: 20px;
+	margin-top: 50px;
 	background-color: rgba(220, 118, 51, 0.5);
+	border-collapse: collapse;
 }
 #clean_graph, th, td {
 	font: 28px/1em 'PT Sans', sans-serif;
-	border: solid 2px;
+	border: solid 3px;
 }
 th {
 	padding: 8px 8px;
@@ -149,7 +152,7 @@ td {
 	text-align: center;
 }
 #notes {
-	margin: 15px;
+	padding-left: 10px;
 	margin-bottom: 100px;
 	font: 26px/1.2em 'PT Sans', sans-serif;
 }
