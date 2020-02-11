@@ -65,8 +65,8 @@ a {
 	margin: 0px;
 }
 #navbar ul li a {
-	padding: 10px 20px;
-	font: 24px/1em 'PT Sans', sans-serif;
+	padding: 8px 20px;
+	font: 24px 'PT Sans', sans-serif;
 	color: #FDFEFE;
 }
 #navbar ul li a:hover {
